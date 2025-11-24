@@ -120,3 +120,4 @@ C:\Users\LEONARDOMORETTIFERNA\Downloads\API\API\API\obj\Debug\net8.0\refint\API.
 C:\Users\LEONARDOMORETTIFERNA\Downloads\API\API\API\obj\Debug\net8.0\API.pdb
 C:\Users\LEONARDOMORETTIFERNA\Downloads\API\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\LEONARDOMORETTIFERNA\Downloads\API\API\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\LEONARDOMORETTIFERNA\Downloads\API\API\API\obj\Debug\net8.0\API.sourcelink.json
