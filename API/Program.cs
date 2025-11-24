@@ -33,6 +33,7 @@ app.MapGet("/api/chamado/listar", ([FromServices] AppDataContext ctx) =>
 //POST: http://localhost:5273/api/chamado/cadastrar
 app.MapPost("/api/chamado/cadastrar", async ([FromServices] AppDataContext ctx, [FromBody] Chamado chamado) =>
 {
+    chamado.Status = "Aberto";
     ctx.Chamados.Add(chamado);
     await ctx.SaveChangesAsync();
     return Results.Created("", chamado);
