@@ -17,7 +17,7 @@ var app = builder.Build();
 
 app.UseCors("Acesso Total");
 
-app.MapGet("/", () => "COLOQUE O SEU NOME");
+app.MapGet("/", () => "Leonardo Moretti Fernandes Nabarro");
 
 //ENDPOINTS DE TAREFA
 //GET: http://localhost:5273/api/chamado/listar
@@ -73,7 +73,6 @@ app.MapGet("/api/chamado/{id}", async ([FromServices] AppDataContext ctx, [FromR
 
     return Results.Ok(chamado);
 });
-
 
 //GET: http://localhost:5273/chamado/naoconcluidas
 app.MapGet("/api/chamado/naoresolvidos", async ([FromServices] AppDataContext ctx) =>

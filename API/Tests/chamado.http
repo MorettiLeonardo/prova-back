@@ -8,3 +8,18 @@ Content-Type: application/json
 {
     "descricao": "Trocar memórias"
 }
+
+### GET CHAMADOS RESOLVIDOS
+GET  http://localhost:5000/api/chamado/resolvidos
+
+### GET CHAMADOS NAO RESOLVIDOS
+GET  http://localhost:5000/api/chamado/naoresolvidos
+
+### GET TODOS CHAMADOS
+GET  http://localhost:5000/api/chamado/listar
+
+### GET CHAMADOS POR ID
+GET  http://localhost:5000/api/chamado/d4ab8c31-8d07-4da9-add2-f0295e7ab8dd
+
+### ALTERAR CHAMADO
+PUT http://localhost:5000/api/chamado/alterar/d4ab8c31-8d07-4da9-add2-f0295e7ab8dd
